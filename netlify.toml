@@ -1,0 +1,9 @@
+[build]
+  publish = "build/web"
+  command = "flutter build web --release"
+  functions = "build/functions"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
